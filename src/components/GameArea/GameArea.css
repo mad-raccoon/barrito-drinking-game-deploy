@@ -1,0 +1,16 @@
+.game-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.game-area.valid {
+background-color: green;
+}
+
+.game-area.not-valid {
+    background-color: red;
+
+}

@@ -1,0 +1,45 @@
+.card
+{
+    border: solid 5px black;
+    border-radius: 25px;
+    width: 200px;
+    height: 325px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 10px 10px 10px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .body {
+    display: flex;
+    justify-content: center;
+}
+
+.card .value{
+    font-size: 75px;
+    font-family: sans-serif;
+}
+
+.card .suit
+{
+	background-image: url('https://www.thatsoftwaredude.com/images/post/0f631eeb-6c4a-4bfd-9f86-e0a08ae8584b.png');
+	height: 100px;
+	width: 90px;
+}
+
+.card .diamonds
+{
+	background-position-y: 100px;
+}
+
+.card .hearts
+{
+	background-position-x: 90px;
+}
+
+.card .clubs
+{
+	background-position-x:90px;
+	background-position-y:100px;
+}

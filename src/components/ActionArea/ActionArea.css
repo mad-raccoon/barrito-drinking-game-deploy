@@ -1,0 +1,50 @@
+.action-area {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid  gold;
+    background-color: darkslategray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 139px;
+
+}
+
+.action-area-line {
+    display: flex;
+    height: 33%;
+    
+}
+
+.action-area-line-option {
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid  gold;
+
+}
+
+.action-area-line-option.red{
+  color: white;
+  background-color: red;
+}
+
+.action-area-line-option.black{
+    color: white;
+    background-color: black;
+  }
+
+  .action-area-line-option.blue{
+    color: white;
+    background-color: blue;
+  }
+
+  .action-area-line-option.dark-blue{
+    color: white;
+    background-color: darkblue;
+  }
